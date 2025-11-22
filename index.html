@@ -54,6 +54,31 @@
           <li>Problem Solving</li>
         </ul>
       </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>สามารถติดต่อได้ผ่านฟอร์มนี้</p>
+        <form action="youremail@example.com" method="post">
+          <label for="name">ชื่อของคุณ: </label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">อีเมลของคุณ: </label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">ข้อความ: </label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="30"
+            required
+          ></textarea
+          ><br /><br />
+
+          <input type="submit" value="ส่งข้อความ" />
+          <input type="reset" value="ล้างข้อมูล" />
+        </form>
+      </section>
     </main>
   </body>
 </html>
